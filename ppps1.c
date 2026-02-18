@@ -14,10 +14,10 @@ int main()
     scanf("%f", &maths);
 
     printf("enter number in chemistry :");
-    scanf("f", &chemistry);
+    scanf("%f", &chemistry);
 
     sum = hindi + physics + maths + chemistry;
     printf("sum %f\n",sum);
-    printf("percentage = %.2f%%\n", percentage);
     return 0;
+
 }
